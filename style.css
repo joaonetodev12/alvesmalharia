@@ -1,0 +1,98 @@
+header {
+    height: 150px;
+    background-color: black;
+    padding: 30px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(img/padrao1.jpg);
+}
+
+
+header > .logo {
+    margin-top: 28px;
+    text-align: center;
+}
+
+
+body > nav {
+    text-align: center;
+    background-color: #CC9933;
+    box-shadow: 5px 1px 5px 6px #00000029;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    min-width: 320px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+main > p {
+    text-align: justify;
+    text-align: center;
+    font-size: 2em;
+    min-width: 320px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+main article {
+    margin: auto;
+}
+
+main nav.tipos-artes {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    height: 800px;
+
+}
+
+
+main nav.tipos-artes a {
+    font-size: 2em;
+    background-color: #CC9933;
+    padding: 10px;
+
+}
+
+main nav.tipos-artes a:hover {
+    color: white;
+}
+
+.mockups {
+    text-align: center;
+    padding: 50px;
+}
+
+article > img {
+    max-width: 270px;
+    margin: 10px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px 2px #00000045;
+}
+
+nav > a {
+    text-align: center;
+    display: inline-block;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+    margin: 8px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+body > nav > a:hover {
+    background-color: rgba(0, 0, 0, 0.151);
+    color: white;
+}
+
+    
